@@ -10,6 +10,10 @@ body {
   
 }
 
+.principaldiv {
+  min-height: 100vh;
+}
+
 .App {
   display: flex;
   justify-content: center;
@@ -19,6 +23,7 @@ body {
   margin: 20px;
   width: 70%;
   margin-top: 70px;
+  height: 100%;
 }
 
 .header {
