@@ -23,7 +23,6 @@ const UsersList = ({user, deleteUser, setObjectUpdate, setIsShowForm, reset}) =>
         <p className='margin icon'><i class="fa-solid fa-cake-candles"></i> {user.birthday}</p>
         <hr className='hrcard'/>
         <div className='buttons'>
-            
             <button className='trash' onClick={() => deleteUser(user.id)} ><i class="fa-solid fa-trash-can"></i></button>
             <button className='pencil' onClick={upDateUser} ><i class="fa-solid fa-file-pen"></i></button>
         </div>
